@@ -95,7 +95,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\StudentCourseManagementAPI\\StudentCourseManager.Core\\StudentCourseManager.Core.csproj": {
+                "projectPath": "C:\\StudentCourseManagementAPI\\StudentCourseManager.Core\\StudentCourseManager.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

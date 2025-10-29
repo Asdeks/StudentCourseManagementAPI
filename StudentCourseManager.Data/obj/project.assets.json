@@ -1132,6 +1132,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "StudentCourseManager.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/StudentCourseManager.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudentCourseManager.Core.dll": {}
+        }
       }
     }
   },
@@ -3208,13 +3218,19 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "StudentCourseManager.Core/1.0.0": {
+      "type": "project",
+      "path": "../StudentCourseManager.Core/StudentCourseManager.Core.csproj",
+      "msbuildProject": "../StudentCourseManager.Core/StudentCourseManager.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore >= 9.0.10",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.10",
-      "Microsoft.EntityFrameworkCore.Tools >= 9.0.10"
+      "Microsoft.EntityFrameworkCore.Tools >= 9.0.10",
+      "StudentCourseManager.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3248,7 +3264,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\StudentCourseManagementAPI\\StudentCourseManager.Core\\StudentCourseManager.Core.csproj": {
+              "projectPath": "C:\\StudentCourseManagementAPI\\StudentCourseManager.Core\\StudentCourseManager.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
