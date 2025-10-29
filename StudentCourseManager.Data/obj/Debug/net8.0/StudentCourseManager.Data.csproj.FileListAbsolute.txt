@@ -1,0 +1,15 @@
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\bin\Debug\net8.0\StudentCourseManager.Data.deps.json
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\bin\Debug\net8.0\StudentCourseManager.Data.runtimeconfig.json
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\bin\Debug\net8.0\StudentCourseManager.Data.dll
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\bin\Debug\net8.0\StudentCourseManager.Data.pdb
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\obj\Debug\net8.0\StudentCourseManager.Data.csproj.AssemblyReference.cache
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\obj\Debug\net8.0\StudentCourseManager.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\obj\Debug\net8.0\StudentCourseManager.Data.AssemblyInfoInputs.cache
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\obj\Debug\net8.0\StudentCourseManager.Data.AssemblyInfo.cs
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\obj\Debug\net8.0\StudentCourseManager.Data.csproj.CoreCompileInputs.cache
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\obj\Debug\net8.0\StudentCourseManager.Data.sourcelink.json
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\obj\Debug\net8.0\StudentCourseManager.Data.dll
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\obj\Debug\net8.0\refint\StudentCourseManager.Data.dll
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\obj\Debug\net8.0\StudentCourseManager.Data.pdb
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\obj\Debug\net8.0\StudentCourseManager.Data.genruntimeconfig.cache
+C:\StudentCourseManagementAPI\StudentCourseManager.Data\obj\Debug\net8.0\ref\StudentCourseManager.Data.dll
