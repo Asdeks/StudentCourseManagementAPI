@@ -1,0 +1,128 @@
+🎓 Student Course Manager API
+
+Simple educational project developed in C# (.NET 8 Web API) for practicing backend development, database connection, and API testing.
+Created as a pet project to refresh my knowledge in C#, SQL, XML/JSON and prepare myself for junior developer interviews.
+
+🧠 About Project
+
+This project simulate a small system for managing students and their courses.
+It provides REST API for creating, updating and reading data about students, courses and enrollments.
+The goal was to create something that looks like real backend app — with clear structure, database connection, logging and tests.
+
+🧱 Tech Stack
+Category	Tools / Technologies
+Language	C# (.NET 8)
+Framework	ASP.NET Core Web API
+Database	SQL (MSSQL / SQLite for dev)
+Data Formats	JSON, XML
+Testing	xUnit
+Docs	Swagger
+Version Control	Git + GitHub
+IDE	Visual Studio / Rider
+⚙️ Main Features
+
+CRUD operations for Students, Courses and Enrollments
+
+Swagger UI for testing API endpoints
+
+Export of reports in XML format
+
+Logging using Serilog (to file)
+
+Database connection via Entity Framework Core
+
+Unit tests for basic logic (xUnit)
+
+Simple validation and error handling
+
+📂 Project Structure
+StudentCourseManager/
+├── StudentCourseManager.API/       # Controllers, Swagger setup, main entry point
+├── StudentCourseManager.Core/      # Entities, DTOs, interfaces, services
+├── StudentCourseManager.Data/      # Database context and repositories
+├── StudentCourseManager.Tests/     # Unit tests (xUnit)
+└── README.md                       # Project documentation
+
+🚀 How to Run
+
+Clone the repository
+
+git clone https://github.com/Asdeks/StudentCourseManager.git
+
+
+Go to the project folder
+
+cd StudentCourseManager
+
+
+Run the API
+
+dotnet run --project StudentCourseManager.API
+
+
+Open Swagger UI in browser:
+👉 http://localhost:5000/swagger
+
+🧩 Example Endpoints
+Method	Endpoint	Description
+GET	/api/students	Get list of students
+POST	/api/students	Add new student
+GET	/api/courses	Get list of courses
+POST	/api/enrollments	Assign student to course
+GET	/api/reports/export	Export report in XML format
+🧰 Tools Used
+
+Visual Studio 2022 — for coding and debugging
+
+SQL Server / SQLite — for database management
+
+Swagger UI — for testing API
+
+Git & GitHub — version control
+
+Postman — for testing API manually
+
+Serilog — for logs
+
+🧑‍💻 Learning Goals
+
+✅ Improve understanding of C# and .NET Web API
+✅ Practice working with SQL and ORM (EF Core)
+✅ Use Swagger for testing and documentation
+✅ Learn to structure project by layers
+✅ Practice using Git and GitHub
+✅ Write small tests for business logic
+✅ Work with JSON and XML data formats
+
+🧾 What I Learned
+
+How to connect database with Web API and make CRUD operations
+
+How to write clean and readable code
+
+How to debug errors using logs
+
+How to test API using Swagger and Postman
+
+How to serialize and deserialize JSON/XML data
+
+How to organize project to look more professional
+
+💬 Future Improvements
+
+Replace SQLite with Oracle DB to train for enterprise projects
+
+Add authentication (JWT or OAuth)
+
+Add message queue (ActiveMQ / RabbitMQ)
+
+Create small frontend client in Blazor or React
+
+Improve unit test coverage
+
+✍️ Author
+
+Maksym Burlaka
+3rd year Informatics student at ČZU, Prague
+📍 Prague, Czech Republic
+📧 asdeks@icloud.com
