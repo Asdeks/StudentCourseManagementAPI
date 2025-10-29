@@ -625,7 +625,8 @@
       "StudentCourseManager.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.10",
-          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.10"
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.10",
+          "StudentCourseManager.Core": "1.0.0"
         },
         "runtime": {
           "StudentCourseManager.Data.dll": {
