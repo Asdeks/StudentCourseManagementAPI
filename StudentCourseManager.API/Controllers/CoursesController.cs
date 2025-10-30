@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using StudentCourseManager.Core.Models;
+using StudentCourseManager.Core.models;
 using StudentCourseManager.Data;
 
 namespace StudentCourseManager.API.Controllers
@@ -23,7 +23,7 @@ namespace StudentCourseManager.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddStudent(Course course)
+        public IActionResult AddCourse(Course course)
         {
             _context.Courses.Add(course);
             _context.SaveChanges();

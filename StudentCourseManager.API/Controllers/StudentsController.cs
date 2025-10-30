@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using StudentCourseManager.Core.Models;
+using StudentCourseManager.Core.models;
 using StudentCourseManager.Data;
 
 namespace StudentCourseManager.API.Controllers
